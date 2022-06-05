@@ -54,5 +54,5 @@ The workflow would go as:
 2. Manager assings testers to the project.
 3. Testers work on the current file as usual.
 4. When a delivery needs to be done, the manager will export the files with a single command and get an excel file with the testing changes and comments.
-5. When new files arrive, the manager just has to import these new files to restar the proccess.
+5. When new files arrive, the manager just has to import these new files to restart the proccess.
 
