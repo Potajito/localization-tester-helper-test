@@ -45,6 +45,7 @@ https://user-images.githubusercontent.com/39760810/172073970-1ea2cf98-2644-48fe-
 Past changes are a click away, even when a new file as just been imported, it will show the cells that have seen changes in the past, so managers and testers know the full context and history easily.
 
 #### Complete user system with full role management in a per-project basis, differentiating testers and managers.
+Full user system with permissions for each projecta, all seamlessly integrated in the multilanguage workflow, allowing testers to look for reference at other languages strings easily.
 
 ### Workflow
 
