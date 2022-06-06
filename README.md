@@ -31,6 +31,7 @@ https://user-images.githubusercontent.com/39760810/172073805-28c73b74-dd16-46fc-
 
 Commit change system in order to avoid typos, non-changes and lack of comments. Users can submit changes one by one or copy and paste already validated changes. 
 All in real time, so the whole team would see the change as it's made.
+The system also supports cell coloring, which shows both in the app interface and in the final export.
 
 #### Safe find and replace functionality, with result preview and bulk commenting
 
