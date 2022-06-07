@@ -87,5 +87,8 @@ Full user system with permissions for each projecta, all seamlessly integrated i
 - [ ] Statistics and data visualization. Number of changes per language, per tester, most changed strings...
 - [ ] Tag system in editor. No more '\n' and <random tags> in the source that hamper reading and are easy to mess up. Instead a graphical tag should show, and could only be edited willingly.
 - [ ] Character limit implementation. Warning when over character limit.
+- [ ] CAT Termbase importing/referencing
+- [ ] Cross-checking for changes between languages. Detect when a change done in a language could be replicated in others.
+ 
   
 
