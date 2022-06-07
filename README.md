@@ -75,6 +75,11 @@ Past changes are a click away, even when a new file as just been imported, it wi
 #### Complete user system with full role management in a per-project basis, differentiating testers and managers.
 Full user system with permissions for each projecta, all seamlessly integrated in the multilanguage workflow, allowing testers to look for reference at other languages strings easily.
 
+#### Data validation with multiple user choice inside the actual interface
+
+![2022-06-07_17-54](https://user-images.githubusercontent.com/39760810/172439443-f0f1af15-45ea-4316-a94a-c933f79d89a0.png)
+
+
 ## Planned features
 
 - [ ] Statistics and data visualization. Number of changes per language, per tester, most changed strings...
