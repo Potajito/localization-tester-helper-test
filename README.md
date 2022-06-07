@@ -3,7 +3,34 @@
 Tester Helper is a localization tool that acts as a proxy between the developer/client supplied excel/tabulated files and the localization testing department.
 It streamlines the localization work in the testing side by automating a number of common tasks while providing a full set of tools for the testers and the managers.
 
-## Features
+### Current features
+- [x] Fast searching even with huge datasets.
+- [x] Inmediate as-you-type filtering.
+- [x] Support for advanced search and filtering (begins with, ends with...) and plain regex.
+- [x] Transparent solution. An Excel file comes in, an excel file comes out, so you can still use your pre and post proccessing tools as usual.
+- [x] Spellchecker, with support for downloading more languages inside the app.
+- [x] Xlsx and xlsb support (xlsb needs Excel to be installed).
+- [x] Data validation support for user selectable dropdowns, aka 'status' columns in the same view as the strings, one click away in order to minimize clutter.
+- [x] Automatic filling of type of change, date and username when making a change.
+- [x] Easy copy and pasting of previously validated changes.
+- [x] Mass find and replace feature with preview of changes before commiting. Automatic comment adding while mass replacing.
+- [x] Complete user system with manager roles, testing roles and per-project permissions granularity.
+- [x] Change history per cell, with user, comment and date info. Past changes are also a click away, even in newly imported files.
+- [x] Theming. System theme, dark theme and light theme.
+- [ ] Show context of strings. Instead of just showing matches, the results include strings that are 'near' the actual results (and differentiate them), thus giving more context on the strings shown. (Partially implemented)  
+
+
+ ### Workflow
+
+This is a proxy solution to avoid working directly with excel files, which is slow and prone to errors. This is transparent for the developer/client, as they send an excel file and get an excel file in the same format.
+The workflow would go as:
+1. Manager creates a project and imports files. It could be a single file for each language or multiple files per language, in case the project splits the files. (columns must coincide between languages)
+2. Manager assings testers to the project.
+3. Testers work on the current file as usual.
+4. When a delivery needs to be done, the manager will export the files with a single command and get an excel file with the testing changes and comments.
+5. When new files arrive, the manager just has to import these new files to restart the proccess.
+
+## Current features explained
 
 #### Streamlined import of files, with automatic parsing of language filenames, so no more scrolling looking for the right language.
 
@@ -48,13 +75,9 @@ Past changes are a click away, even when a new file as just been imported, it wi
 #### Complete user system with full role management in a per-project basis, differentiating testers and managers.
 Full user system with permissions for each projecta, all seamlessly integrated in the multilanguage workflow, allowing testers to look for reference at other languages strings easily.
 
-### Workflow
+### Planned features
 
-This is a proxy solution to avoid working directly with excel files, which is slow and prone to errors. This is transparent for the developer/client, as they send an excel file and get an excel file in the same format.
-The workflow would go as:
-1. Manager creates a project and imports files. It could be a single file for each language or multiple files per language, in case the project splits the files. (columns must coincide between languages)
-2. Manager assings testers to the project.
-3. Testers work on the current file as usual.
-4. When a delivery needs to be done, the manager will export the files with a single command and get an excel file with the testing changes and comments.
-5. When new files arrive, the manager just has to import these new files to restart the proccess.
+- [ ] Statistics and data visualization. Number of changes per language, per tester, most changed strings...
+- [ ] Tag system in editor. No more '\n' and <random tags> in the source that hamper reading and are easy to mess up. Instead a graphical tag should show, and could only be edited willingly.
+  
 
