@@ -9,6 +9,7 @@ It streamlines the localization work in the testing side by automating a number 
 - [x] Support for advanced search and filtering (begins with, ends with...) and plain regex.
 - [x] Transparent solution. An Excel file comes in, an excel file comes out, so you can still use your pre and post proccessing tools as usual.
 - [x] Spellchecker, with support for downloading more languages inside the app.
+- [x] Full Unicode and right to left writting support.
 - [x] Xlsx and xlsb support (xlsb needs Excel to be installed).
 - [x] Data validation support for user selectable dropdowns, aka 'status' columns in the same view as the strings, one click away in order to minimize clutter.
 - [x] Automatic filling of type of change, date and username when making a change.
