@@ -75,7 +75,7 @@ Past changes are a click away, even when a new file as just been imported, it wi
 #### Complete user system with full role management in a per-project basis, differentiating testers and managers.
 Full user system with permissions for each projecta, all seamlessly integrated in the multilanguage workflow, allowing testers to look for reference at other languages strings easily.
 
-### Planned features
+## Planned features
 
 - [ ] Statistics and data visualization. Number of changes per language, per tester, most changed strings...
 - [ ] Tag system in editor. No more '\n' and <random tags> in the source that hamper reading and are easy to mess up. Instead a graphical tag should show, and could only be edited willingly.
