@@ -19,7 +19,7 @@ It streamlines the localization work in the testing side by automating a number 
 - [x] Complete user system with manager roles, testing roles and per-project permissions granularity.
 - [x] Change history per cell, with user, comment and date info. Past changes are also a click away, even in newly imported files.
 - [x] Theming. System theme, dark theme and light theme.
-- [ ] Show context of strings. Instead of just showing matches, the results include strings that are 'near' the actual results (and differentiate them), thus giving more context on the strings shown. (Partially implemented)  
+- [x] Show context of strings. Instead of just showing matches, the results include strings that are 'near' the actual results (and differentiate them), thus giving more context on the strings shown.
 
 
  ### Workflow
