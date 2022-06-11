@@ -8,7 +8,7 @@ It streamlines the localization work in the testing side by automating a number 
 - [x] Inmediate as-you-type filtering.
 - [x] Support for advanced search and filtering (begins with, ends with...) and plain regex.
 - [x] Transparent solution. An Excel file comes in, an excel file comes out, so you can still use your pre and post proccessing tools as usual.
-- [x] Support for split language files, that is, even if the same language is split in several files (OST, Interface...), importing, exporting and actual file work is transparent for the user. 
+- [x] Support for split language files, that is, even if the same language is split in several files (OST, Interface...), importing, exporting and actual file work is transparent for the user. (As long as files share the same column structure!)
 - [x] Spellchecker, with support for downloading more languages inside the app.
 - [x] Full Unicode and right to left writting support.
 - [x] Xlsx and xlsb support (xlsb needs Excel to be installed).
