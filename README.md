@@ -34,7 +34,7 @@ The workflow would go as:
 
 ## Current features explained
 
-#### Streamlined import of files, with automatic parsing of language filenames, so no more scrolling looking for the right language.
+#### Streamlined import of files, with automatic parsing of language filenames, so no more scrolling looking for the right language. ISO 639-1 support, as in 'en-US' codes, or 'Language (Country)' format, as in 'Spanish (Mexico)'.
 
 ![importing_1](https://user-images.githubusercontent.com/39760810/172073540-e9547d05-d4b3-46ad-8fa6-630632737c88.gif)
 
