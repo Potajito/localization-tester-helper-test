@@ -20,6 +20,7 @@ It streamlines the localization work in the testing side by automating a number 
 - [x] Change history per cell, with user, comment and date info. Past changes are also a click away, even in newly imported files.
 - [x] Theming. System theme, dark theme and light theme.
 - [x] Show context of strings. Instead of just showing matches, the results include strings that are 'near' the actual results (and differentiate them), thus giving more context on the strings shown.
+- [x] CAT Termbase importing/referencing while making a change.
 
 
  ### Workflow
@@ -87,7 +88,6 @@ Full user system with permissions for each projecta, all seamlessly integrated i
 - [ ] Statistics and data visualization. Number of changes per language, per tester, most changed strings...
 - [ ] Tag system in editor. No more '\n' and <random tags> in the source that hamper reading and are easy to mess up. Instead a graphical tag should show, and could only be edited willingly.
 - [ ] Character limit implementation. Warning when over character limit.
-- [ ] CAT Termbase importing/referencing
 - [ ] Cross-checking for changes between languages. Detect when a change done in a language could be replicated in others.
  
   
