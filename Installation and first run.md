@@ -37,5 +37,9 @@ Once the column order is selected, files will be imported and the localization t
 
 ## Importing glossaries/termbases
 
+For now, the only supported format for importing termbases is xlsx. The ideal way of importing termbases is with a single file that contains a 'term' column in the source language and several columns for each language. There is support for an all languages 'notes' column and each language can have an altenative term. Glossaries can also be imported with a file for each language, just make sure that you don't select other languages while importing glossaries. Glossary importing always replaces the old glossary with the new one, so when you update a language with an existing glossary, the whole old glossary will get replaced with the new one.
+As of now, the terms will be shown in the change window (double clicking in the 'testing changes' column to insert a change) when there are glossary terms in the selected cell/row.
+
 ## Exporting files
 
+Exporting is very straight forward. Once you are ready to export a batch, select 'Export files' from the project admin window and you will be prompted with which project and which imported batch (usually the latest) you want to export. The result of the export is a file identical to the one you imported but with the testing changes/comments/validation columns filled. If you imported a xlsb file, you also get the xlsx file, in case anything happened in the coversion proccess, but these files should have identical content.
