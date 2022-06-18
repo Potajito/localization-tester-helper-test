@@ -23,6 +23,18 @@ security:
 
 ## Importing files
 
+Using a manager account, and aAfter creating a project, get to the project management window (Admin->Project management) and click 'Import'. Select the project to import to, the row where the column headers are located and confirm.
+
+Xlsx and xlsb files are supported, but is reccommended to stick to xlsx, as xlsb files are converted into xlsx anyway automatically and Excel needs to be installed in order to make the conversion. Regardless of the format, you will get the same format that you imported while exporting.
+While importing a set of files, these files need to have the same column headers. The only exception is having a column header with a format like 'French (Translation)', 'Spanish (Translation)'..., while the rest of the columns headers remain identical.
+
+If the files are compatible, you'll be prompted with a language selection for each of the files. If the languages in the filenames follow ISO 639-1 ('en-US' code, for example), or in 'Language (Country)' format, as in 'Spanish (Mexico)', languages should be automatically filled in the dropdown. If not, fill them and continue.
+
+Now you'll be asked to select the tool fields for each column. All fields but 'Loc info' are mandatory. Column order can change between exports/files, so if you have a set of files with a column order and another set of files with a different order in the same project, just import them separately.
+If your file has data validation columns, with user dropdown multiple selection ('status' column, for example) you'll be asked to select one of these columns, and its content and dropdown selector will appear in the 'Loc info' column in the main window.
+
+Once the column order is selected, files will be imported and the localization testing proccess can start. Each new import will be named with the date and time of import, and will be selectable in right corner of the main window, with the last import being selected by default.
+
 ## Importing glossaries/termbases
 
 ## Exporting files
